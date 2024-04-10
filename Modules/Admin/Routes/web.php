@@ -78,13 +78,6 @@ use Modules\Admin\Http\Controllers\CourierController;
 
 
 
-                        Route::prefix('website')->group(function() {       
-                            
-                           
-
-                            Route::get('/home', [HomePageController::class, 'homePage'])->name('website.home');
-                            Route::post('/home', [HomePageController::class, 'homeUpdate'])->name('website.home');
-                         });
 
 
 
