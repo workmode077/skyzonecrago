@@ -41,7 +41,7 @@ use Modules\Admin\Http\Controllers\CourierController;
                     Route::middleware(['permission:Settings,uses'])->group(function(){
 
                         Route::prefix('courier')->group(function() {
-                            Route::get('/', [CourierController::class, 'list'])->name('two-wheeler');
+                            Route::get('/', [CourierController::class, 'list'])->name('courier');
                             Route::get('list', [CourierController::class, 'courierList']);
                             Route::get('/create', [CourierController::class, 'courierView']);
                             Route::post('/create', [CourierController::class, 'courierStore'])->name('courier.store');
