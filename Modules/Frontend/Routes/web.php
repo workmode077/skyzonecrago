@@ -9,7 +9,7 @@
 
 
 
-    Route::get('/track', [HomePageController::class, 'homePage']);
+    Route::get('/', [HomePageController::class, 'homePage']);
     Route::post('/search-order', [HomePageController::class, 'searchList']);
   
 
