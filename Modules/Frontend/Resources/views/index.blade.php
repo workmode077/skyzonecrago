@@ -29,7 +29,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title style-white text-center">
-                    <h2 class="title">WwELCOME TO SKYZONE CARGO SERVICES LLC</h2>
+                    <h2 class="title">WwEeLCOME TO SKYZONE CARGO SERVICES LLC</h2>
                     <p class="content">Skyzone cargo is present in all steps of the logistics process.</p>
                 </div>
             </div>
