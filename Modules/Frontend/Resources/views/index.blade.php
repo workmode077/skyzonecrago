@@ -12,11 +12,11 @@
     <!-- favicon -->
     <link rel=icon href=assets/version-2/img/favicon.png sizes="20x20" type="image/png">
    
-    <link rel="stylesheet" href="{{('website/css/vendor.css')}}">
+    <link rel="stylesheet" href="{{asset('website/css/vendor.css')}}">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="{{('website/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('website/css/style.css')}}">
     <!-- responsive Stylesheet -->
-    <link rel="stylesheet" href="{{('website/css/responsive.css')}}">
+    <link rel="stylesheet" href="{{asset('website/css/responsive.css')}}">
 
 
  
