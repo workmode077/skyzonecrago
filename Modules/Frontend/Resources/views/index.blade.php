@@ -12,11 +12,11 @@
     <!-- favicon -->
     <link rel=icon href=assets/version-2/img/favicon.png sizes="20x20" type="image/png">
    
-    <link rel="stylesheet" href="{{asset('website/css/vendor.css')}}">
+    <link rel="stylesheet" href="{{ asset('website/css/vendor.css')}}">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="{{asset('website/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('website/css/style.css')}}">
     <!-- responsive Stylesheet -->
-    <link rel="stylesheet" href="{{asset('website/css/responsive.css')}}">
+    <link rel="stylesheet" href="{{ asset('website/css/responsive.css')}}">
 
 
  
@@ -29,7 +29,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title style-white text-center">
-                    <h2 class="title">WELCOME TO SKYZONE CARGO SERVICES LLC</h2>
+                    <h2 class="title">WwELCOME TO SKYZONE CARGO SERVICES LLC</h2>
                     <p class="content">Skyzone cargo is present in all steps of the logistics process.</p>
                 </div>
             </div>
@@ -254,8 +254,8 @@
 
 
 
-<script src="{{asset('website/js/vendor.js')}}"></script>
-<script src="{{asset('website/js/main.js')}}"></script>
-<script src="{{asset('website/script/order-status.js')}}"></script>
+<script src="{{ asset('website/js/vendor.js')}}"></script>
+<script src="{{ asset('website/js/main.js')}}"></script>
+<script src="{{ asset('website/script/order-status.js')}}"></script>
 </body>
 </html>
