@@ -18,7 +18,7 @@
                         <div class="triangle"></div>
                     </li>
                     @endif
-                    @if(in_array('2', $permissions))
+                    {{-- @if(in_array('2', $permissions))
                     <li class="nav-item" ><a class="nav-item-hold" href="{{url('admin/website/home')}}"><i class="nav-icon  i-Computer-Secure"></i><span class="nav-text">Check details</span></a>
                         <div class="triangle"></div>
                     </li>
@@ -28,7 +28,7 @@
                     <li class="nav-item" data-item="settings"><a class="nav-item-hold" href="#"><i class="nav-icon  i-Computer-Secure"></i><span class="nav-text">Settings</span></a>
                         <div class="triangle"></div>
                     </li>
-                    @endif
+                    @endif --}}
                 </ul>
             </div>
             <div class="sidebar-left-secondary rtl-ps-none" data-perfect-scrollbar="" data-suppress-scroll-x="true">

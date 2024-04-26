@@ -15,7 +15,7 @@ class AdminUserSeeder extends Seeder
     {
         $adminUser=DB::table('admin_users')->insert([
             'name'=>"Admin",
-            'email'=>'admin@webcastle.in',
+            'email'=>'admin@gmail.com',
             'password'=>bcrypt('password'),
             'role_id'=>'1',
             'status'=>'1'

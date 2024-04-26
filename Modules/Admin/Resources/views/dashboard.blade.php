@@ -36,7 +36,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
+                    {{-- <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
                             <div class="card-body text-center"><i class="i-Add-Order"></i>
                                 <div class="content">
@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     </div>
             </div>
 
